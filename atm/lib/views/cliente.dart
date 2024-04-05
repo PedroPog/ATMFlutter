@@ -19,10 +19,17 @@ class _ClienteState extends State<Cliente> {
           Row(
             children: [
               Image.asset("imagens/detalhe_cliente.png"),
-              Text("Sobre Cliente")
+              Text("Clientes")
             ],
           ),
-        ],
+          Padding(padding: EdgeInsets.only(top:16),
+          child: Image.asset("imagens/cliente1.png"),
+          ),
+          Padding(padding: EdgeInsets.only(top:16),
+          child: Image.asset("imagens/cliente2.png"),
+          ),
+          Text("Empresa de software")
+        ]
       ),
     );
   }

@@ -22,6 +22,13 @@ class _ContatoState extends State<Contato> {
               Text("Sobre Contato")
             ],
           ),
+          Padding(padding: EdgeInsets.only(top:16),
+          child: Text("Telefone: (11) 91234-1234"),
+          ),
+          Padding(padding: EdgeInsets.only(top:16),
+          child: Text("Email: teste@gmail.com"),
+          ),
+          
         ],
       ),
     );
