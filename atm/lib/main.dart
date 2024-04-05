@@ -1,4 +1,5 @@
-import 'package:atm/views/support.dart';
+
+import 'package:atm/views/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
